@@ -33,7 +33,7 @@
             <!-- 各ページのリンクをリスト化 -->
             <ul class="header-menu-ul">
               <li class="header-menu-list">
-                <a href="#" class="header-menu-link font-color-white">トップページ</a>
+                <a href="top.html" class="header-menu-link font-color-white">トップページ</a>
               </li>
               <li class="header-menu-list">
                 <a href="detail.html" class="header-menu-link font-color-white">従業員一覧</a>
