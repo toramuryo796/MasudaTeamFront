@@ -1,0 +1,56 @@
+    <!-- ヘッダー -->
+    <header>
+      <div class="header-large-box">
+
+        <!-- ヘッダー上部 -->
+        <div class="header-upper">
+
+          <!-- ヘッダー左部 -->
+          <div class="header-left">
+            <!-- サービス名を記載 -->
+            <div class="header-logo-box">
+              <h1 class="header-logo"><a href="#" class="font-color-white">サービス名</a></h1>
+            </div>
+            <!-- //サービス名を記載 -->
+          </div>
+          <!-- //ヘッダー左部 -->
+
+          <!-- ヘッダー右部 -->
+          <div class="header-right">
+            <!-- ログインしているユーザー名(管理者)を表示 -->
+            <div class="header-user-box">
+              <p class="header-user-name font-color-white">ユーザー名表示</p>
+            </div>
+            <!-- //ログインしているユーザー名(管理者)を表示 -->
+          </div>          
+          <!-- //ヘッダー右部 -->
+        </div>
+        <!-- //ヘッダー上部 -->
+        
+        <!-- ヘッダー下部 -->
+        <div class="lower">
+          <div class="header-menu">
+            <!-- 各ページのリンクをリスト化 -->
+            <ul class="header-menu-ul">
+              <li class="header-menu-list">
+                <a href="#" class="header-menu-link font-color-white">トップページ</a>
+              </li>
+              <li class="header-menu-list">
+                <a href="detail.html" class="header-menu-link font-color-white">従業員一覧</a>
+              </li>
+              <li class="header-menu-list">
+                <a href="#" class="header-menu-link font-color-white">従業員登録</a>
+              </li>
+              <li class="header-menu-list last-menu-list">
+                <a href="#" class="header-menu-link font-color-white">管理者登録</a>
+              </li>
+            </ul>
+            <!-- //各ページのリンクをリスト化 -->
+          </div>
+        </div>
+        <!-- //ヘッダー下部 -->
+      </div>
+    </header>
+    <!-- ヘッダー -->
+
+    test
