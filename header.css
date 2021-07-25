@@ -1,0 +1,121 @@
+header{
+  height: 100px;
+}
+
+h1, p, ul{
+  margin:0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ヘッダー上部 */
+.header-upper{
+  height:50px;
+}
+
+/* ヘッダーロゴ */
+.header-left{
+  width: 50%;
+  float: left;
+}
+
+.header-logo{
+  color: blue;
+}
+  /* //ヘッダーロゴ */
+
+  /* ヘッダーユーザー名 */
+.header-right{
+  width: 50%;
+  text-align: end;
+  float: right;
+}
+
+.header-user-name{
+  padding-right: 50px;
+  position: relative;
+  top: 25px;
+}
+  /* //ヘッダーユーザー名 */
+/* // ヘッダー上部 */
+
+/* ヘッダー下部 */
+.lower{
+  clear: both;
+  height: 50px;
+}
+
+.header-menu-ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.header-menu-list{
+  width: 25%;
+  text-align: center;
+}
+
+.header-menu-link{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header-menu-ul li+li{
+  border-left: 1px solid #000;
+}
+
+  /* hover時 */
+  .header-menu-link:hover{
+    background-color: #dcdcdc;
+    color: white;
+  }
+  /* //hover時 */
+/* //ヘッダー下部 */
+
+/* main部分 */
+main{
+  background-color: ghostwhite;
+}
+
+.employee-detail-box{
+  width: 70%;
+  margin: 0 auto;
+  background-color: azure;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+  /* 顧客情報テーブル */
+.employee-detail-table{
+  border-collapse: separate;
+  border-spacing: 50px 30px;
+  width:100%;
+}
+    /* 項目 */
+.employee-detail-title{
+  width: 100px;
+}
+    /* //項目 */
+    /* 従業員情報 */
+.employee-info-td{
+}
+
+.employee-info{
+  border-bottom: 2px #000 solid;
+  width: 250px;
+}
+    /* //従業員情報 */
+.employee-info-detail{
+  width: 60px;
+}
+  /* //顧客情報テーブル */
+/* //main部分 */
+  
