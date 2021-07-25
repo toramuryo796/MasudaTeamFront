@@ -1,7 +1,6 @@
 html,
 body {
   font-family: "fantasy"; /* 文字の書式 */
-  margin: 80px; /* 各ブロック要素の余白 */
   font-size: 22px; /* フォントの大きさ */
   text-align: center; /* 文字の配置 */
   background-color: #e5fdff;
@@ -16,6 +15,10 @@ body {
   margin-inline-end: 0px;
   font-weight: bold;
   color: #000066;
+}
+
+.login-main{
+  margin: 80px; /* 各ブロック要素の余白 */
 }
 
 .contact {

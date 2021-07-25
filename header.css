@@ -1,5 +1,5 @@
 header{
-  height: 100px;
+  height: 80px;
 }
 
 h1, p, ul{
@@ -10,9 +10,17 @@ a{
   text-decoration: none;
 }
 
+.header-large-box{
+  background-color: #000066;
+}
+
+.font-color-white{
+  color: white;
+}
+
 /* ヘッダー上部 */
 .header-upper{
-  height:50px;
+  height:40px;
 }
 
 /* ヘッダーロゴ */
@@ -22,7 +30,9 @@ a{
 }
 
 .header-logo{
-  color: blue;
+  color: #fff;
+  font-size: 24px;
+  text-align: start;
 }
   /* //ヘッダーロゴ */
 
@@ -36,7 +46,6 @@ a{
 .header-user-name{
   padding-right: 50px;
   position: relative;
-  top: 25px;
 }
   /* //ヘッダーユーザー名 */
 /* // ヘッダー上部 */
@@ -44,7 +53,7 @@ a{
 /* ヘッダー下部 */
 .lower{
   clear: both;
-  height: 50px;
+  height: 40px;
 }
 
 .header-menu-ul{
@@ -52,7 +61,7 @@ a{
   padding-left: 0;
   display: flex;
   justify-content: space-around;
-  height: 50px;
+  height: 40px;
 }
 
 .header-menu-list{
@@ -61,7 +70,7 @@ a{
 }
 
 .header-menu-link{
-  height: 50px;
+  height: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -69,19 +78,19 @@ a{
 }
 
 .header-menu-ul li+li{
-  border-left: 1px solid #000;
+  border-left: 1px solid white;
 }
 
   /* hover時 */
   .header-menu-link:hover{
-    background-color: #dcdcdc;
-    color: white;
+    background-color: white;
+    color: #000066;
   }
   /* //hover時 */
 /* //ヘッダー下部 */
 
 /* main部分 */
-main{
+.employee-detail{
   background-color: ghostwhite;
 }
 
@@ -109,7 +118,7 @@ main{
 }
 
 .employee-info{
-  border-bottom: 2px #000 solid;
+  border-bottom: 2px white solid;
   width: 250px;
 }
     /* //従業員情報 */
